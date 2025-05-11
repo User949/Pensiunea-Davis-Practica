@@ -1,0 +1,55 @@
+body {
+    background-color: lightgray;
+}
+
+.custom-carousel .carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.custom-carousel .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+@media (max-width: 767px) {
+    .text-md-custom {
+        background-clip: text;
+        -webkit-text-fill-color: salmon;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .custom-carousel .carousel-inner img {
+        height: 500px;
+    }
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+@media (max-width: 575px) {
+    #imageModal {
+        display: none !important;
+    }
+    .image-link {
+        pointer-events: none;
+        cursor: default;
+    }
+}
+
+@media (max-width: 991px) {
+    #imageModalPZ {
+        display: none !important;
+    }
+    .image-link-pizza {
+        pointer-events: none;
+        cursor: default;
+    }
+}
